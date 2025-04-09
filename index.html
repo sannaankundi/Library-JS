@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Library</h1>
+    <noscript>
+      <p style="color: red">JavaScript is required to use this application.</p>
+    </noscript>
+    <div id="book-list"></div>
+    <form id="add-book-form">
+      <input type="text" name="title" placeholder="Title" required />
+      <input type="text" name="author" placeholder="Author" required />
+      <input type="number" name="pages" placeholder="Pages" required />
+      <label> <input type="checkbox" name="read" /> Read? </label>
+      <button type="submit">Add Book</button>
+    </form>
+  </body>
+</html>
